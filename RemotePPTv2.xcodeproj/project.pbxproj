@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D4DC8E1867E4BE009A7BF3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D4DC8D1867E4BE009A7BF3 /* UIKit.framework */; };
+		07D4DC901867E4BE009A7BF3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D4DC8F1867E4BE009A7BF3 /* Foundation.framework */; };
+		07D4DC921867E4BE009A7BF3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07D4DC911867E4BE009A7BF3 /* CoreGraphics.framework */; };
+		07D4DC981867E4BE009A7BF3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 07D4DC961867E4BE009A7BF3 /* InfoPlist.strings */; };
+		07D4DC9E1867E4BE009A7BF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4DC9D1867E4BE009A7BF3 /* AppDelegate.m */; };
+		07D4DCCF1867F7DA009A7BF3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D4DCCE1867F7DA009A7BF3 /* MainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07D4DC891867E4BE009A7BF3 /* RemotePPTv2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemotePPTv2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D4DC8D1867E4BE009A7BF3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		07D4DC8F1867E4BE009A7BF3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		07D4DC911867E4BE009A7BF3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		07D4DC951867E4BE009A7BF3 /* RemotePPTv2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemotePPTv2-Info.plist"; sourceTree = "<group>"; };
+		07D4DC971867E4BE009A7BF3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		07D4DC9B1867E4BE009A7BF3 /* RemotePPTv2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemotePPTv2-Prefix.pch"; sourceTree = "<group>"; };
+		07D4DC9C1867E4BE009A7BF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07D4DC9D1867E4BE009A7BF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07D4DCA41867F646009A7BF3 /* BIDDoubleComponentPickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDDoubleComponentPickerViewController.m; sourceTree = "<group>"; };
+		07D4DCA51867F646009A7BF3 /* BIDDoubleComponentPickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDDoubleComponentPickerViewController.h; sourceTree = "<group>"; };
+		07D4DCA61867F646009A7BF3 /* BNRItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		07D4DCA71867F646009A7BF3 /* BNRItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		07D4DCA81867F654009A7BF3 /* ComputerListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerListViewController.m; sourceTree = "<group>"; };
+		07D4DCA91867F654009A7BF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07D4DCAA1867F654009A7BF3 /* KSTcpModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSTcpModule.m; sourceTree = "<group>"; };
+		07D4DCAB1867F654009A7BF3 /* RemotePPT-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RemotePPT-Info.plist"; sourceTree = "<group>"; };
+		07D4DCAC1867F654009A7BF3 /* ConnectionToServer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionToServer.m; sourceTree = "<group>"; };
+		07D4DCAD1867F654009A7BF3 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		07D4DCAE1867F654009A7BF3 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		07D4DCAF1867F654009A7BF3 /* PPTExplorerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PPTExplorerViewController.m; sourceTree = "<group>"; };
+		07D4DCB01867F654009A7BF3 /* PPTExplorerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PPTExplorerViewController.h; sourceTree = "<group>"; };
+		07D4DCB11867F654009A7BF3 /* ComputerListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ComputerListViewController.h; sourceTree = "<group>"; };
+		07D4DCB21867F654009A7BF3 /* ConnectionToServer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionToServer.h; sourceTree = "<group>"; };
+		07D4DCB31867F654009A7BF3 /* ConnectionInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionInfo.h; sourceTree = "<group>"; };
+		07D4DCB41867F654009A7BF3 /* ConnectionInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionInfo.m; sourceTree = "<group>"; };
+		07D4DCB51867F654009A7BF3 /* remotePPT.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = remotePPT.db; sourceTree = "<group>"; };
+		07D4DCB61867F654009A7BF3 /* AddComputerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddComputerViewController.m; sourceTree = "<group>"; };
+		07D4DCB71867F654009A7BF3 /* KSTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSTableViewController.m; sourceTree = "<group>"; };
+		07D4DCB81867F654009A7BF3 /* KSTcpModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSTcpModule.h; sourceTree = "<group>"; };
+		07D4DCB91867F654009A7BF3 /* KSTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSTableViewController.h; sourceTree = "<group>"; };
+		07D4DCBA1867F654009A7BF3 /* PPTExplorerViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PPTExplorerViewController_iPhone.xib; sourceTree = "<group>"; };
+		07D4DCBB1867F654009A7BF3 /* KSSqliteConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSSqliteConnection.m; sourceTree = "<group>"; };
+		07D4DCBC1867F654009A7BF3 /* AddComputerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddComputerViewController.h; sourceTree = "<group>"; };
+		07D4DCBD1867F654009A7BF3 /* ComputerListViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComputerListViewController_iPhone.xib; sourceTree = "<group>"; };
+		07D4DCBE1867F654009A7BF3 /* KSEncrypt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSEncrypt.m; sourceTree = "<group>"; };
+		07D4DCBF1867F654009A7BF3 /* KSSqliteConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSSqliteConnection.h; sourceTree = "<group>"; };
+		07D4DCC01867F654009A7BF3 /* KSEncrypt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSEncrypt.h; sourceTree = "<group>"; };
+		07D4DCC11867F654009A7BF3 /* AddComputerViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddComputerViewController_iPhone.xib; sourceTree = "<group>"; };
+		07D4DCC21867F654009A7BF3 /* MainViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController_iPhone.xib; sourceTree = "<group>"; };
+		07D4DCC31867F654009A7BF3 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		07D4DCC41867F654009A7BF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07D4DCC51867F654009A7BF3 /* KSCUtility.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = KSCUtility.c; sourceTree = "<group>"; };
+		07D4DCC61867F654009A7BF3 /* KSCUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCUtility.h; sourceTree = "<group>"; };
+		07D4DCC71867F654009A7BF3 /* SlideShow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideShow.m; sourceTree = "<group>"; };
+		07D4DCC81867F654009A7BF3 /* SlideShow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideShow.h; sourceTree = "<group>"; };
+		07D4DCC91867F654009A7BF3 /* SettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		07D4DCCA1867F654009A7BF3 /* SettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		07D4DCCB1867F654009A7BF3 /* SettingViewController_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingViewController_iPhone.xib; sourceTree = "<group>"; };
+		07D4DCCC1867F654009A7BF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07D4DCCD1867F654009A7BF3 /* RemotePPT-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RemotePPT-Prefix.pch"; sourceTree = "<group>"; };
+		07D4DCCE1867F7DA009A7BF3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D4DC861867E4BE009A7BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D4DC8E1867E4BE009A7BF3 /* UIKit.framework in Frameworks */,
+				07D4DC901867E4BE009A7BF3 /* Foundation.framework in Frameworks */,
+				07D4DC921867E4BE009A7BF3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D4DC7E1867E4BE009A7BF3 = {
+			isa = PBXGroup;
+			children = (
+				07D4DC931867E4BE009A7BF3 /* RemotePPTv2 */,
+				07D4DC8C1867E4BE009A7BF3 /* Frameworks */,
+				07D4DC8A1867E4BE009A7BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D4DC8A1867E4BE009A7BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D4DC891867E4BE009A7BF3 /* RemotePPTv2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D4DC8C1867E4BE009A7BF3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				07D4DC8D1867E4BE009A7BF3 /* UIKit.framework */,
+				07D4DC8F1867E4BE009A7BF3 /* Foundation.framework */,
+				07D4DC911867E4BE009A7BF3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07D4DC931867E4BE009A7BF3 /* RemotePPTv2 */ = {
+			isa = PBXGroup;
+			children = (
+				07D4DCA41867F646009A7BF3 /* BIDDoubleComponentPickerViewController.m */,
+				07D4DCA51867F646009A7BF3 /* BIDDoubleComponentPickerViewController.h */,
+				07D4DCA61867F646009A7BF3 /* BNRItem.m */,
+				07D4DCA71867F646009A7BF3 /* BNRItem.h */,
+				07D4DC9C1867E4BE009A7BF3 /* AppDelegate.h */,
+				07D4DC9D1867E4BE009A7BF3 /* AppDelegate.m */,
+				07D4DC941867E4BE009A7BF3 /* Supporting Files */,
+			);
+			path = RemotePPTv2;
+			sourceTree = "<group>";
+		};
+		07D4DC941867E4BE009A7BF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D4DCC51867F654009A7BF3 /* KSCUtility.c */,
+				07D4DCB51867F654009A7BF3 /* remotePPT.db */,
+				07D4DCBC1867F654009A7BF3 /* AddComputerViewController.h */,
+				07D4DCB11867F654009A7BF3 /* ComputerListViewController.h */,
+				07D4DCB31867F654009A7BF3 /* ConnectionInfo.h */,
+				07D4DCB21867F654009A7BF3 /* ConnectionToServer.h */,
+				07D4DCC61867F654009A7BF3 /* KSCUtility.h */,
+				07D4DCC01867F654009A7BF3 /* KSEncrypt.h */,
+				07D4DCBF1867F654009A7BF3 /* KSSqliteConnection.h */,
+				07D4DCB91867F654009A7BF3 /* KSTableViewController.h */,
+				07D4DCB81867F654009A7BF3 /* KSTcpModule.h */,
+				07D4DCAE1867F654009A7BF3 /* KSViewController.h */,
+				07D4DCC31867F654009A7BF3 /* MainViewController.h */,
+				07D4DCB01867F654009A7BF3 /* PPTExplorerViewController.h */,
+				07D4DCCA1867F654009A7BF3 /* SettingViewController.h */,
+				07D4DCC81867F654009A7BF3 /* SlideShow.h */,
+				07D4DCC41867F654009A7BF3 /* ViewController.h */,
+				07D4DCB61867F654009A7BF3 /* AddComputerViewController.m */,
+				07D4DCA81867F654009A7BF3 /* ComputerListViewController.m */,
+				07D4DCB41867F654009A7BF3 /* ConnectionInfo.m */,
+				07D4DCAC1867F654009A7BF3 /* ConnectionToServer.m */,
+				07D4DCBE1867F654009A7BF3 /* KSEncrypt.m */,
+				07D4DCBB1867F654009A7BF3 /* KSSqliteConnection.m */,
+				07D4DCB71867F654009A7BF3 /* KSTableViewController.m */,
+				07D4DCAA1867F654009A7BF3 /* KSTcpModule.m */,
+				07D4DCAD1867F654009A7BF3 /* KSViewController.m */,
+				07D4DCCC1867F654009A7BF3 /* main.m */,
+				07D4DCCE1867F7DA009A7BF3 /* MainViewController.m */,
+				07D4DCAF1867F654009A7BF3 /* PPTExplorerViewController.m */,
+				07D4DCC91867F654009A7BF3 /* SettingViewController.m */,
+				07D4DCC71867F654009A7BF3 /* SlideShow.m */,
+				07D4DCA91867F654009A7BF3 /* ViewController.m */,
+				07D4DCCD1867F654009A7BF3 /* RemotePPT-Prefix.pch */,
+				07D4DC9B1867E4BE009A7BF3 /* RemotePPTv2-Prefix.pch */,
+				07D4DCAB1867F654009A7BF3 /* RemotePPT-Info.plist */,
+				07D4DC951867E4BE009A7BF3 /* RemotePPTv2-Info.plist */,
+				07D4DCC11867F654009A7BF3 /* AddComputerViewController_iPhone.xib */,
+				07D4DCBD1867F654009A7BF3 /* ComputerListViewController_iPhone.xib */,
+				07D4DCC21867F654009A7BF3 /* MainViewController_iPhone.xib */,
+				07D4DCBA1867F654009A7BF3 /* PPTExplorerViewController_iPhone.xib */,
+				07D4DCCB1867F654009A7BF3 /* SettingViewController_iPhone.xib */,
+				07D4DC961867E4BE009A7BF3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D4DC881867E4BE009A7BF3 /* RemotePPTv2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D4DCA11867E4BE009A7BF3 /* Build configuration list for PBXNativeTarget "RemotePPTv2" */;
+			buildPhases = (
+				07D4DC851867E4BE009A7BF3 /* Sources */,
+				07D4DC861867E4BE009A7BF3 /* Frameworks */,
+				07D4DC871867E4BE009A7BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemotePPTv2;
+			productName = RemotePPTv2;
+			productReference = 07D4DC891867E4BE009A7BF3 /* RemotePPTv2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D4DC801867E4BE009A7BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 07D4DC831867E4BE009A7BF3 /* Build configuration list for PBXProject "RemotePPTv2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 07D4DC7E1867E4BE009A7BF3;
+			productRefGroup = 07D4DC8A1867E4BE009A7BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D4DC881867E4BE009A7BF3 /* RemotePPTv2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D4DC871867E4BE009A7BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D4DC981867E4BE009A7BF3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D4DC851867E4BE009A7BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D4DC9E1867E4BE009A7BF3 /* AppDelegate.m in Sources */,
+				07D4DCCF1867F7DA009A7BF3 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07D4DC961867E4BE009A7BF3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D4DC971867E4BE009A7BF3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D4DC9F1867E4BE009A7BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07D4DCA01867E4BE009A7BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D4DCA21867E4BE009A7BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemotePPTv2/RemotePPTv2-Prefix.pch";
+				INFOPLIST_FILE = "RemotePPTv2/RemotePPTv2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		07D4DCA31867E4BE009A7BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RemotePPTv2/RemotePPTv2-Prefix.pch";
+				INFOPLIST_FILE = "RemotePPTv2/RemotePPTv2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D4DC831867E4BE009A7BF3 /* Build configuration list for PBXProject "RemotePPTv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D4DC9F1867E4BE009A7BF3 /* Debug */,
+				07D4DCA01867E4BE009A7BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D4DCA11867E4BE009A7BF3 /* Build configuration list for PBXNativeTarget "RemotePPTv2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D4DCA21867E4BE009A7BF3 /* Debug */,
+				07D4DCA31867E4BE009A7BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D4DC801867E4BE009A7BF3 /* Project object */;
+}
