@@ -16,3 +16,7 @@ int main(int argc, char *argv[])
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }
+
+//sourcetree test for GitHub on Server
+
+// my account : hurstchoi@daum.net   passwd: aptpxh21
